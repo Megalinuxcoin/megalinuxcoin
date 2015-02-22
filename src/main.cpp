@@ -1095,8 +1095,8 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 3.5 * 24 * 60 * 60; // Megalinuxcoin: 3.5 days
-static const int64 nTargetSpacing = 2.5 * 60; // Megalinuxcoin: 2.5 minutes
+static const int64 nTargetTimespan = 1 * 24 * 60 * 60; // Megalinuxcoin: 1 days
+static const int64 nTargetSpacing = 1.5 * 60; // Megalinuxcoin: 1.5 minutes
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
