@@ -2794,7 +2794,7 @@ bool InitBlockIndex() {
         block.nVersion = 1;
         block.nTime    = 1424527923; //tempo di nascita della moneta da Linux date +%s
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 2084524493;
+        block.nNonce   = 386660873;
 
         if (fTestNet)
         {
